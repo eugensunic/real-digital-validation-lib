@@ -6,7 +6,7 @@ class ErrorContainer extends Component {
   }
 
   render() {
-    if (!this.props.message) return <div></div>;
+    if (!this.props.message) return "";
     return <div className="error-container">{this.props.message}</div>;
   }
 }
