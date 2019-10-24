@@ -14,10 +14,10 @@ the provided input.
 
 ## Download repository and run the app
 
-After setting up Git and Node (npm included)
+After setting up Git and Node (npm included) open your Terminal/Command Prompt.
 
 1.  clone the repository to your computer: `git clone https://github.com/eugensunic/real-digital-validation-lib.git`
-2.  go inside that _directory/folder_ (folder must contain package.json) and run: `npm install`.
+2.  go inside the directory/folder **real-digital-validation-lib*  (folder must contain package.json) and run: `npm install`. 
 3.  run `npm run start` which will instantiate the app at [http://localhost:3000/](http://localhost:3000/). Open
     the url and you will see the input fields where you can try validating your inputs.
 
