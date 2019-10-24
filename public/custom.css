@@ -1,0 +1,30 @@
+body {
+  background: #f8f9fa;
+}
+
+h5 {
+  margin: 20px 0px;
+}
+
+input {
+  display: inline;
+}
+
+.error-container {
+  display: block;
+  padding: 3px;
+  background: #fbb1b1;
+  position: relative;
+  top: -10px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #c8c8c8;
+  color: #363535;
+  margin-top: 20px;
+  margin-right: 90px;
+  margin-left: 4px;
+}
+.btn-submit {
+  display: inline;
+  margin-left: 3px;
+}
