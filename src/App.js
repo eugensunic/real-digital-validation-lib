@@ -23,7 +23,9 @@ class App extends Component {
       email: null,
       emailError: null,
       url: null,
-      urlError: null
+      urlError: null,
+      custom: null,
+      customError: null
     };
   }
 
@@ -104,6 +106,11 @@ class App extends Component {
       return;
     }
     this.setState({ urlError: null });
+  };
+
+  // implement your own validation
+  validateCustom = () => {
+    return;
   };
 
   validateInput(callback) {
@@ -196,6 +203,23 @@ class App extends Component {
               Submit
             </button>
             <ErrorContainer message={this.state.urlError} />
+          </div>
+          {/* custom validation implementation, implement your own 
+           functions by using the validation folder library */}
+          <div className="col-sm-4">
+            <h5>Custom validation</h5>
+            <InputField
+              propKey="custom"
+              properties={{ name: "custom-validation", type: "text" }}
+              onChange={this.onChange}
+            />
+            <button
+              className="btn-submit"
+              onClick={() => this.validateInput(this.validateCustom)}
+            >
+              Submit
+            </button>
+            <ErrorContainer message={this.state.customError} />
           </div>
         </div>
       </div>
