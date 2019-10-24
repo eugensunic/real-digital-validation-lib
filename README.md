@@ -6,7 +6,7 @@ The project contains functions for validating: basic string, number, text, mail 
 Functions are used by importing the required object and directly calling the function against
 the provided input.
 
-## Getting started (configure node and git)
+## Getting started (configure Node and Git)
 
 - have **Node.js** installed on your machine. Install node [here](https://nodejs.org/en/download/). Node comes with
   npm (package manager) needed for executing commands in order to install, and run the app.
